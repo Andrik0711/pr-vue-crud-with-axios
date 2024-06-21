@@ -10,7 +10,7 @@ const routes = [
     {
         path: "/tutorials/:id",
         name: "tutorial-details",
-        component: () => import("./components/Tutorial")
+        component: () => import("./components/TheTutorial")
     },
     {
         path: "/add",
